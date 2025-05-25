@@ -10,6 +10,7 @@ load_dotenv()
 
 document_content = ""
 
+
 class AgentState(TypedDict):
     """State agent for the state graph."""
     messages: Annotated[Sequence[BaseMessage], add_messages]
